@@ -1,0 +1,26 @@
+.custom-navbar {
+    background-color: #58585A !important;
+}
+
+.custom-navbar .nav-link {
+    color: #fff !important; 
+    text-decoration: none !important;
+}
+
+.custom-navbar .nav-link.active {
+    font-weight: bold; 
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+    color: red !important;
+}
+
+.white-logo {
+    filter: invert(1); 
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 30vw;
+    margin: 0 auto;
+}
